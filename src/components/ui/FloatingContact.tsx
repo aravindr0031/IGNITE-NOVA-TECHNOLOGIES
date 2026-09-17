@@ -24,7 +24,7 @@ export function FloatingContact() {
       
       {/* WhatsApp */}
       <a 
-        href="https://wa.me/919344067940" 
+        href="https://wa.me/919344067940?text=Hello!%20Can%20I%20get%20more%20info%20on%20this%3F"
         target="_blank" 
         rel="noopener noreferrer"
         className="relative flex items-center justify-center w-14 h-14 bg-theme-yellow rounded-full text-white shadow-xl hover:scale-110 transition-transform group"
