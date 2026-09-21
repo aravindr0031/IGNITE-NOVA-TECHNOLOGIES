@@ -75,7 +75,7 @@ export function Footer() {
               <a href="https://www.instagram.com/ignitenova.tech?stkn=MW44MTRvcXM5dHcyYg==" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-theme-white/5 rounded-full flex items-center justify-center hover:bg-theme-yellow hover:text-theme-black transition-colors text-theme-white/80 hover:scale-110"><InstagramIcon /></a>
               <a href="https://www.linkedin.com/company/ignite-nova" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-theme-white/5 rounded-full flex items-center justify-center hover:bg-theme-yellow hover:text-theme-black transition-colors text-theme-white/80 hover:scale-110"><LinkedinIcon /></a>
               <a href="mailto:ignitenova.tech@gmail.com" className="w-10 h-10 bg-theme-white/5 rounded-full flex items-center justify-center hover:bg-theme-yellow hover:text-theme-black transition-colors text-theme-white/80 hover:scale-110"><Mail className="w-4 h-4" /></a>
-              <a href="https://wa.me/919344067940?text=Hello!%20Can%20I%20get%20more%20info%20on%20this%3F" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-theme-white/5 rounded-full flex items-center justify-center hover:bg-theme-yellow hover:text-theme-black transition-colors text-theme-white/80 hover:scale-110"><WhatsappIcon /></a>
+              <a href="https://api.whatsapp.com/send?phone=919344067940&text=Hello!%20Can%20I%20get%20more%20info%20on%20this%3F" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-theme-white/5 rounded-full flex items-center justify-center hover:bg-theme-yellow hover:text-theme-black transition-colors text-theme-white/80 hover:scale-110"><WhatsappIcon /></a>
             </div>
           </div>
 
