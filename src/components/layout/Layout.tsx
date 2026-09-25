@@ -12,7 +12,7 @@ export function Layout() {
   }, [location.pathname]);
 
   return (
-    <div className="min-h-screen flex flex-col font-sans bg-theme-black text-theme-white selection:bg-theme-yellow/30 selection:text-theme-white">
+    <div className="min-h-screen flex flex-col font-sans bg-theme-black text-theme-white selection:bg-theme-yellow/30 selection:text-theme-white overflow-x-hidden w-full">
       <Navbar />
       <main className="flex-grow">
         <Outlet />

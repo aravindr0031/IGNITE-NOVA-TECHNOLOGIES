@@ -19,27 +19,27 @@ type Project = {
 };
 
 const projects: Project[] = [
-  { id: '1', name: 'Personal Stylist', category: 'Service', desc: 'A sleek portfolio and booking platform for personal styling services.', tags: ['Styling', 'Portfolio', 'Booking'], link: 'https://personal-stylist-five.vercel.app/', image: 'https://loremflickr.com/800/600/fashion,clothing' },
-  { id: '2', name: 'Therapeutic Massage', category: 'Health & Wellness', desc: 'A serene platform for a therapeutic massage and bodywork center.', tags: ['Wellness', 'Booking', 'Services'], link: 'https://therapeutic-massage-bodywork-center.vercel.app/', image: 'https://loremflickr.com/800/600/massage,spa' },
-  { id: '3', name: 'Construction Materials', category: 'E-commerce', desc: 'Online supplier for building materials and construction tools.', tags: ['B2B', 'Store', 'Materials'], link: 'https://building-materials-construction-sup.vercel.app/', image: 'https://loremflickr.com/800/600/construction,building' },
-  { id: '4', name: 'Hazel Gym', category: 'Health & Wellness', desc: 'A high-energy website for a modern fitness center.', tags: ['Fitness', 'Memberships', 'Classes'], link: 'https://gymwebsite-hazel.vercel.app/', image: 'https://loremflickr.com/800/600/gym,fitness' },
-  { id: '5', name: 'Silent Disco Rentals', category: 'Entertainment', desc: 'A rental platform for silent disco headphone parties.', tags: ['Events', 'Rentals', 'Party'], link: 'https://silent-disco-headphone-party-rental.vercel.app/', image: 'https://loremflickr.com/800/600/party,dj' },
-  { id: '6', name: 'Rug Weaving Atelier', category: 'Art & Design', desc: 'Showcase and store for custom, handcrafted rugs and carpets.', tags: ['Crafts', 'Atelier', 'Store'], link: 'https://custom-rug-carpet-weaving-atelier.vercel.app/', image: 'https://loremflickr.com/800/600/rug,craft' },
-  { id: '7', name: 'Pipe & Tobacco', category: 'E-commerce', desc: 'An artisanal shop for handcrafted pipes and tobacco accessories.', tags: ['Artisanal', 'Shop', 'Craft'], link: 'https://handcrafted-pipe-tobacco-accessory.vercel.app/', image: 'https://loremflickr.com/800/600/leather,cigar' },
-  { id: '8', name: 'Diesel Truck Repair', category: 'Automotive', desc: 'Service site for mobile diesel truck repair and fleet maintenance.', tags: ['Mechanic', 'Fleet', 'Service'], link: 'https://mobile-diesel-truck-repair-fleet-se.vercel.app/', image: 'https://loremflickr.com/800/600/truck,mechanic' },
-  { id: '9', name: 'Candle Making Workshop', category: 'Education', desc: 'Registration platform for hand-poured candle making classes.', tags: ['Workshop', 'Crafts', 'Events'], link: 'https://hand-poured-candle-making-workshop.vercel.app/', image: 'https://loremflickr.com/800/600/candle,handmade' },
-  { id: '10', name: 'Online Coaching Platform', category: 'Education', desc: 'Digital platform for competitive online coaching.', tags: ['Coaching', 'LMS', 'Video'], link: 'https://online-coaching-platform-for-compet.vercel.app/', image: 'https://loremflickr.com/800/600/laptop,coaching' },
-  { id: '11', name: 'Health Clinic', category: 'Health & Wellness', desc: 'Professional website for a local health clinic.', tags: ['Medical', 'Care', 'Appointments'], link: 'https://health-clinic-website-ten.vercel.app/', image: 'https://loremflickr.com/800/600/clinic,medical' },
-  { id: '12', name: 'Mobile Auto Detailing', category: 'Automotive', desc: 'Service platform for premium mobile auto detailing and ceramic coating.', tags: ['Detailing', 'Cars', 'Service'], link: 'https://mobile-auto-detailing-ceramic-coati.vercel.app/', image: 'https://loremflickr.com/800/600/car,washing' },
-  { id: '13', name: 'Poetry Workshop', category: 'Education', desc: 'Creative writing and poetry workshop platform.', tags: ['Writing', 'Classes', 'Literature'], link: 'https://creative-writing-poetry-workshop-pl.vercel.app/', image: 'https://loremflickr.com/800/600/writing,notebook' },
-  { id: '14', name: 'Kids Coding Robotics', category: 'Education', desc: 'Educational site for kids coding and robotics workshops.', tags: ['STEM', 'Kids', 'Robotics'], link: 'https://kids-coding-robotics-workshop.vercel.app/', image: 'https://loremflickr.com/800/600/robotics,kids' },
-  { id: '15', name: 'Art Gallery', category: 'Art & Design', desc: 'An elegant digital gallery space for contemporary art.', tags: ['Gallery', 'Exhibitions', 'Art'], link: 'https://art-gallery-six-pi.vercel.app/', image: 'https://loremflickr.com/800/600/art,gallery' },
-  { id: '16', name: 'Wedding Invitations', category: 'Art & Design', desc: 'Design studio offering bespoke wedding invitations.', tags: ['Weddings', 'Design', 'Print'], link: 'https://wedding-invitation-design-studio.vercel.app/', image: 'https://loremflickr.com/800/600/wedding,invitation' },
-  { id: '17', name: 'Therapeutic Cuddlist', category: 'Health & Wellness', desc: 'Professional services for therapeutic touch and cuddling.', tags: ['Therapy', 'Wellness', 'Care'], link: 'https://professional-cuddlist-therapeutic-t.vercel.app/', image: 'https://loremflickr.com/800/600/cozy,blanket' },
-  { id: '18', name: 'Groww Creator', category: 'Technology', desc: 'Platform for creators to grow and manage their audience.', tags: ['Creators', 'Tools', 'Growth'], link: 'https://groww-creator.vercel.app/', image: 'https://loremflickr.com/800/600/camera,creator' },
-  { id: '19', name: 'Bookshop & Stationery', category: 'E-commerce', desc: 'An inviting online bookstore and stationery shop.', tags: ['Books', 'Stationery', 'Retail'], link: 'https://bookshop-stationery-store.vercel.app/', image: 'https://loremflickr.com/800/600/bookshop,books' },
-  { id: '20', name: 'Smart Home Solutions', category: 'Technology', desc: 'Modern smart home automation services and products.', tags: ['Smart Home', 'IoT', 'Automation'], link: 'https://smart-home-gules-seven.vercel.app/', image: 'https://loremflickr.com/800/600/smarthome,interior' },
-  { id: '21', name: 'B2B Sowniya Project', category: 'Technology', desc: 'B2B platform for seamless business operations and connectivity.', tags: ['B2B', 'Platform', 'Enterprise'], link: 'https://b2-b-sowniya-project.vercel.app/', image: 'https://loremflickr.com/800/600/business,office' },
+  { id: '1', name: 'Personal Stylist', category: 'Service', desc: 'A sleek portfolio and booking platform for personal styling services.', tags: ['Styling', 'Portfolio', 'Booking'], link: 'https://personal-stylist-five.vercel.app/', image: 'https://picsum.photos/seed/stylist/800/600' },
+  { id: '2', name: 'Therapeutic Massage', category: 'Health & Wellness', desc: 'A serene platform for a therapeutic massage and bodywork center.', tags: ['Wellness', 'Booking', 'Services'], link: 'https://therapeutic-massage-bodywork-center.vercel.app/', image: 'https://picsum.photos/seed/massage/800/600' },
+  { id: '3', name: 'Construction Materials', category: 'E-commerce', desc: 'Online supplier for building materials and construction tools.', tags: ['B2B', 'Store', 'Materials'], link: 'https://building-materials-construction-sup.vercel.app/', image: 'https://picsum.photos/seed/construction/800/600' },
+  { id: '4', name: 'Hazel Gym', category: 'Health & Wellness', desc: 'A high-energy website for a modern fitness center.', tags: ['Fitness', 'Memberships', 'Classes'], link: 'https://gymwebsite-hazel.vercel.app/', image: 'https://picsum.photos/seed/gym/800/600' },
+  { id: '5', name: 'Silent Disco Rentals', category: 'Entertainment', desc: 'A rental platform for silent disco headphone parties.', tags: ['Events', 'Rentals', 'Party'], link: 'https://silent-disco-headphone-party-rental.vercel.app/', image: 'https://picsum.photos/seed/disco/800/600' },
+  { id: '6', name: 'Rug Weaving Atelier', category: 'Art & Design', desc: 'Showcase and store for custom, handcrafted rugs and carpets.', tags: ['Crafts', 'Atelier', 'Store'], link: 'https://custom-rug-carpet-weaving-atelier.vercel.app/', image: 'https://picsum.photos/seed/rug/800/600' },
+  { id: '7', name: 'Pipe & Tobacco', category: 'E-commerce', desc: 'An artisanal shop for handcrafted pipes and tobacco accessories.', tags: ['Artisanal', 'Shop', 'Craft'], link: 'https://handcrafted-pipe-tobacco-accessory.vercel.app/', image: 'https://picsum.photos/seed/pipe/800/600' },
+  { id: '8', name: 'Diesel Truck Repair', category: 'Automotive', desc: 'Service site for mobile diesel truck repair and fleet maintenance.', tags: ['Mechanic', 'Fleet', 'Service'], link: 'https://mobile-diesel-truck-repair-fleet-se.vercel.app/', image: 'https://picsum.photos/seed/truck/800/600' },
+  { id: '9', name: 'Candle Making Workshop', category: 'Education', desc: 'Registration platform for hand-poured candle making classes.', tags: ['Workshop', 'Crafts', 'Events'], link: 'https://hand-poured-candle-making-workshop.vercel.app/', image: 'https://picsum.photos/seed/candle/800/600' },
+  { id: '10', name: 'Online Coaching Platform', category: 'Education', desc: 'Digital platform for competitive online coaching.', tags: ['Coaching', 'LMS', 'Video'], link: 'https://online-coaching-platform-for-compet.vercel.app/', image: 'https://picsum.photos/seed/coach/800/600' },
+  { id: '11', name: 'Health Clinic', category: 'Health & Wellness', desc: 'Professional website for a local health clinic.', tags: ['Medical', 'Care', 'Appointments'], link: 'https://health-clinic-website-ten.vercel.app/', image: 'https://picsum.photos/seed/clinic/800/600' },
+  { id: '12', name: 'Mobile Auto Detailing', category: 'Automotive', desc: 'Service platform for premium mobile auto detailing and ceramic coating.', tags: ['Detailing', 'Cars', 'Service'], link: 'https://mobile-auto-detailing-ceramic-coati.vercel.app/', image: 'https://picsum.photos/seed/auto/800/600' },
+  { id: '13', name: 'Poetry Workshop', category: 'Education', desc: 'Creative writing and poetry workshop platform.', tags: ['Writing', 'Classes', 'Literature'], link: 'https://creative-writing-poetry-workshop-pl.vercel.app/', image: 'https://picsum.photos/seed/poetry/800/600' },
+  { id: '14', name: 'Kids Coding Robotics', category: 'Education', desc: 'Educational site for kids coding and robotics workshops.', tags: ['STEM', 'Kids', 'Robotics'], link: 'https://kids-coding-robotics-workshop.vercel.app/', image: 'https://picsum.photos/seed/robotics/800/600' },
+  { id: '15', name: 'Art Gallery', category: 'Art & Design', desc: 'An elegant digital gallery space for contemporary art.', tags: ['Gallery', 'Exhibitions', 'Art'], link: 'https://art-gallery-six-pi.vercel.app/', image: 'https://picsum.photos/seed/gallery/800/600' },
+  { id: '16', name: 'Wedding Invitations', category: 'Art & Design', desc: 'Design studio offering bespoke wedding invitations.', tags: ['Weddings', 'Design', 'Print'], link: 'https://wedding-invitation-design-studio.vercel.app/', image: 'https://picsum.photos/seed/wedding/800/600' },
+  { id: '17', name: 'Therapeutic Cuddlist', category: 'Health & Wellness', desc: 'Professional services for therapeutic touch and cuddling.', tags: ['Therapy', 'Wellness', 'Care'], link: 'https://professional-cuddlist-therapeutic-t.vercel.app/', image: 'https://picsum.photos/seed/therapy/800/600' },
+  { id: '18', name: 'Groww Creator', category: 'Technology', desc: 'Platform for creators to grow and manage their audience.', tags: ['Creators', 'Tools', 'Growth'], link: 'https://groww-creator.vercel.app/', image: 'https://picsum.photos/seed/creator/800/600' },
+  { id: '19', name: 'Bookshop & Stationery', category: 'E-commerce', desc: 'An inviting online bookstore and stationery shop.', tags: ['Books', 'Stationery', 'Retail'], link: 'https://bookshop-stationery-store.vercel.app/', image: 'https://picsum.photos/seed/books/800/600' },
+  { id: '20', name: 'Smart Home Solutions', category: 'Technology', desc: 'Modern smart home automation services and products.', tags: ['Smart Home', 'IoT', 'Automation'], link: 'https://smart-home-gules-seven.vercel.app/', image: 'https://picsum.photos/seed/smarthome/800/600' },
+  { id: '21', name: 'B2B Sowniya Project', category: 'Technology', desc: 'B2B platform for seamless business operations and connectivity.', tags: ['B2B', 'Platform', 'Enterprise'], link: 'https://b2-b-sowniya-project.vercel.app/', image: 'https://picsum.photos/seed/b2b/800/600' },
 ];
 
 export function Projects() {
@@ -80,7 +80,7 @@ export function Projects() {
 
       {/* Filters */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-4 overflow-x-auto pb-4 scrollbar-hide">
+        <div className="flex items-center gap-4 overflow-x-auto pb-4 scrollbar-hide w-full">
           <div className="flex items-center gap-2 shrink-0 mr-4 text-theme-white/50">
             <Filter className="w-5 h-5" />
             <span className="font-medium">Filter:</span>
@@ -103,7 +103,7 @@ export function Projects() {
 
       {/* Projects Grid */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div layout className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <motion.div layout className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <AnimatePresence mode="popLayout">
             {filteredProjects.map((project) => (
               <motion.div

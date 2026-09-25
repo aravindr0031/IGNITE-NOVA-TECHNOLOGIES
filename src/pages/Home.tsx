@@ -417,7 +417,7 @@ export function Home() {
                     clipPath: 'polygon(0 0, 100% 0, 100% 100%, 15% 100%, 0 85%)',
                   }}
                 />
-                <div className="absolute bottom-8 left-8 max-w-sm bg-theme-white/95 backdrop-blur-md p-6 rounded-2xl shadow-2xl border border-white/20">
+                <div className="absolute bottom-4 left-4 right-4 sm:bottom-8 sm:left-8 sm:right-auto max-w-sm bg-theme-white/95 backdrop-blur-md p-6 rounded-2xl shadow-2xl border border-white/20">
                   <div className="text-theme-yellow font-bold text-xs tracking-widest uppercase mb-1">{projects[0].category}</div>
                   <h3 className="text-xl md:text-2xl font-black text-theme-black mb-3">{projects[0].name}</h3>
                   <a href={projects[0].link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-theme-black font-bold hover:text-theme-yellow transition-colors text-sm">
@@ -427,7 +427,7 @@ export function Home() {
               </motion.div>
 
               {/* Feature Boxes */}
-              <div className="grid grid-cols-2 gap-8 pr-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:pr-8">
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }}>
                   <PenTool className="w-10 h-10 text-theme-yellow mb-4" strokeWidth={1.5} />
                   <h4 className="font-bold text-lg mb-2 text-theme-black">Premium Experience</h4>
@@ -497,7 +497,7 @@ export function Home() {
                     clipPath: 'polygon(0 0, 100% 0, 100% 85%, 85% 100%, 0 100%)',
                   }}
                 />
-                <div className="absolute top-8 left-8 max-w-sm bg-theme-white/95 backdrop-blur-md p-6 rounded-2xl shadow-2xl border border-white/20">
+                <div className="absolute top-4 left-4 right-4 sm:top-8 sm:left-8 sm:right-auto max-w-sm bg-theme-white/95 backdrop-blur-md p-6 rounded-2xl shadow-2xl border border-white/20">
                   <div className="text-theme-yellow font-bold text-xs tracking-widest uppercase mb-1">{projects[1].category}</div>
                   <h3 className="text-xl md:text-2xl font-black text-theme-black mb-3">{projects[1].name}</h3>
                   <a href={projects[1].link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-theme-black font-bold hover:text-theme-yellow transition-colors text-sm">

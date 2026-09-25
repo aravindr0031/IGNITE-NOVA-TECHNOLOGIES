@@ -21,8 +21,8 @@
 }
 
 @layer base {
-  body {
-    @apply bg-theme-black text-theme-white font-sans antialiased;
+  html, body {
+    @apply bg-theme-black text-theme-white font-sans antialiased overflow-x-hidden w-full;
   }
 }
 
