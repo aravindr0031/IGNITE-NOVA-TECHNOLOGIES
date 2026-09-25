@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
 import { Layout } from './components/layout/Layout';
+import { SplashScreen } from './components/ui/SplashScreen';
 
 // Pages
 import { Home } from './pages/Home';
@@ -15,21 +17,31 @@ import { TermsConditions } from './pages/TermsConditions';
 import { NotFound } from './pages/NotFound';
 
 function App() {
+  const [showSplash, setShowSplash] = useState(true);
+
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="services" element={<Services />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="projects/:id" element={<ProjectDetail />} />
-        <Route path="careers" element={<Careers />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="privacy" element={<PrivacyPolicy />} />
-        <Route path="terms" element={<TermsConditions />} />
-        <Route path="*" element={<NotFound />} />
-      </Route>
-    </Routes>
+    <>
+      <AnimatePresence>
+        {showSplash && (
+          <SplashScreen key="splash" onComplete={() => setShowSplash(false)} />
+        )}
+      </AnimatePresence>
+
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="services" element={<Services />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="projects/:id" element={<ProjectDetail />} />
+          <Route path="careers" element={<Careers />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="privacy" element={<PrivacyPolicy />} />
+          <Route path="terms" element={<TermsConditions />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </>
   );
 }
 
